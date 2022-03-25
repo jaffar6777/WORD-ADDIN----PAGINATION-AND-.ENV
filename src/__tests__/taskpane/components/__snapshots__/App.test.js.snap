@@ -1,0 +1,114 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App should render Login when user is not Logged in 1`] = `
+<div
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "height": "100vh",
+      "justifyContent": "center",
+    }
+  }
+>
+  <h2
+    className={
+      Object {
+        "margin": "1rem",
+      }
+    }
+  >
+    LOGIN
+  </h2>
+  <form
+    onSubmit={[Function]}
+  >
+    <label
+      className="ms-Label root-53"
+    >
+      User Name
+    </label>
+    <div
+      className="ms-TextField root-55"
+    >
+      <div
+        className="ms-TextField-wrapper"
+      >
+        <div
+          className="ms-TextField-fieldGroup fieldGroup-56"
+        >
+          <input
+            aria-invalid={false}
+            className="ms-TextField-field field-57"
+            id="TextField9"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            placeholder="User Name"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <label
+      className="ms-Label root-66"
+    >
+      Password
+    </label>
+    <div
+      className="ms-TextField root-67"
+    >
+      <div
+        className="ms-TextField-wrapper"
+      >
+        <div
+          className="ms-TextField-fieldGroup fieldGroup-56"
+        >
+          <input
+            aria-invalid={false}
+            className="ms-TextField-field field-57"
+            id="TextField12"
+            onBlur={[Function]}
+            onChange={[Function]}
+            onFocus={[Function]}
+            onInput={[Function]}
+            placeholder="Password"
+            type="text"
+            value=""
+          />
+        </div>
+      </div>
+    </div>
+    <button
+      className="ms-Button ms-Button--primary root-68"
+      data-is-focusable={true}
+      onClick={[Function]}
+      onKeyDown={[Function]}
+      onKeyPress={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseUp={[Function]}
+      type="button"
+    >
+      <span
+        className="ms-Button-flexContainer flexContainer-69"
+        data-automationid="splitbuttonprimary"
+      >
+        <span
+          className="ms-Button-textContainer textContainer-70"
+        >
+          <span
+            className="ms-Button-label label-72"
+            id="id__15"
+          >
+            Submit
+          </span>
+        </span>
+      </span>
+    </button>
+  </form>
+</div>
+`;

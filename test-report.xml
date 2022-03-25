@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\MohamedJaffar\Desktop\OFFICE JS\WORD ADDIN -- PAGINATION AND .ENV\src\__tests__\taskpane\components\Login.test.js">
+    <testCase name="LOGIN If Username is empty show text Please Enter User Name" duration="267"/>
+    <testCase name="LOGIN If Password is empty show text Please Enter Password" duration="85"/>
+    <testCase name="LOGIN If Username  is wrong show text Please check the User Name" duration="140"/>
+    <testCase name="LOGIN If Password is wrong show text Please check the Password" duration="112"/>
+    <testCase name="LOGIN If Username and Password is correct" duration="92"/>
+  </file>
+  <file path="C:\Users\MohamedJaffar\Desktop\OFFICE JS\WORD ADDIN -- PAGINATION AND .ENV\src\__tests__\taskpane\store\PostsState\PostsReducer.test.js">
+    <testCase name="Posts Reducer Should return initial state when empty action is passed " duration="3"/>
+    <testCase name="Posts Reducer Should return initial state when wrong action is passed " duration="0"/>
+    <testCase name="Posts Reducer Should return the required data when action POSTS_REQUEST is passed " duration="1"/>
+    <testCase name="Posts Reducer Should return the required data when action POSTS_SUCCESS is passed " duration="0"/>
+    <testCase name="Posts Reducer Should return the required data when action POSTS_FAILED is passed " duration="1"/>
+    <testCase name="Posts Reducer Should return the required data when action SET_POSTS is passed " duration="0"/>
+  </file>
+  <file path="C:\Users\MohamedJaffar\Desktop\OFFICE JS\WORD ADDIN -- PAGINATION AND .ENV\src\__tests__\taskpane\components\Home.test.js">
+    <testCase name="Home should render no data found if the api response gives no posts " duration="91"/>
+    <testCase name="Home should render no data found if there are no matching posts after searching " duration="177"/>
+    <testCase name="Home should render Posts " duration="23"/>
+    <testCase name="Home should render only the searched Posts " duration="71"/>
+    <testCase name="Home should not render the other Posts " duration="60"/>
+    <testCase name="Home should change data on next Click" duration="54"/>
+    <testCase name="Home should change data on direct click" duration="50"/>
+    <testCase name="Home should change data on prev click" duration="79"/>
+    <testCase name="Home next button should  be visible initially" duration="29"/>
+    <testCase name="Home next button should not be visible when the last page is active" duration="57"/>
+    <testCase name="Home prev button should not be visible initially" duration="15"/>
+    <testCase name="Home should render the correct search results on page change" duration="103"/>
+    <testCase name="Home should navigate to Login Page when LOGOUT is clicked " duration="49"/>
+  </file>
+  <file path="C:\Users\MohamedJaffar\Desktop\OFFICE JS\WORD ADDIN -- PAGINATION AND .ENV\src\__tests__\taskpane\store\AuthState\AuthReducer.test.js">
+    <testCase name="Auth Reducer Should return the initial state when empty action is passed" duration="2"/>
+    <testCase name="Auth Reducer Should return the initial state when wrong action is passed" duration="0"/>
+    <testCase name="Auth Reducer Should return isLoggedIn as true when wrong LOGIN action" duration="1"/>
+    <testCase name="Auth Reducer Should return isLoggedIn as true when wrong LOGIN action" duration="0"/>
+  </file>
+  <file path="C:\Users\MohamedJaffar\Desktop\OFFICE JS\WORD ADDIN -- PAGINATION AND .ENV\src\__tests__\taskpane\store\PostsState\PostsActions.test.js">
+    <testCase name="Posts Actions fetchPosts Fetching Posts Success" duration="7"/>
+    <testCase name="Posts Actions fetchPosts Fetching Posts Failure" duration="1"/>
+  </file>
+  <file path="C:\Users\MohamedJaffar\Desktop\OFFICE JS\WORD ADDIN -- PAGINATION AND .ENV\src\__tests__\taskpane\components\App.test.js">
+    <testCase name="App should render Login when user is not Logged in" duration="51"/>
+  </file>
+</testExecutions>
